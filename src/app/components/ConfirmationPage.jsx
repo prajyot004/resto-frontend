@@ -3,7 +3,7 @@
 import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 
-const ConfirmationPage = () => {
+const ConfirmationContent = () => {
   const searchParams = useSearchParams();
   
 
@@ -26,6 +26,7 @@ const ConfirmationPage = () => {
     </div>
   );
 };
+
 export default function ConfirmationPage() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
