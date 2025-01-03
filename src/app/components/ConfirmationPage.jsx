@@ -1,6 +1,7 @@
 "use client";
 
-import { useSearchParams } from "next/navigation";
+import { Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
 
 const ConfirmationPage = () => {
   const searchParams = useSearchParams();
@@ -25,5 +26,11 @@ const ConfirmationPage = () => {
     </div>
   );
 };
+export default function ConfirmationPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ConfirmationContent />
+    </Suspense>
+  );
+} 
 
-export default ConfirmationPage;
