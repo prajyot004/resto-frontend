@@ -1,5 +1,5 @@
-import ConfirmationPage from "../components/ConfirmationPage";
+import ConfirmationContent from '../components/ConfirmationContent';
 
 export default function Confirmation() {
-  return <ConfirmationPage />;
+  return <ConfirmationContent />;
 }
