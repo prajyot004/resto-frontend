@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light gray background */
+  color: #333; /* Dark gray text */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #444; /* Slightly darker gray for headings */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between form elements */
+  padding: 20px;
+  background-color: #fff; /* White background for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 400px; /* Limit form width */
+  margin: 20px auto; /* Center the form */
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #0070f3; /* Highlight input when focused */
+  box-shadow: 0 0 4px rgba(0, 112, 243, 0.5); /* Subtle blue glow */
+}
+
+button {
+  background-color: #0070f3; /* Primary button color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005bb5; /* Darker blue on hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #e7f3ff; /* Light blue for slots */
+  border: 1px solid #0070f3; /* Matching border color */
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+div {
+  margin: 10px auto;
+  max-width: 800px; /* Center the content with limited width */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.booking-summary {
+  border: 2px solid #4caf50;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+
+.confirmation-page {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: rgb(252, 234, 212);
+}
+
+.summary-details {
+  margin: 20px 0;
+  padding: 10px;
+  
+  border-radius: 5px;
+  background-color: rgb(252, 234, 212);
+}
+
+.return-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.return-button:hover {
+  background-color: #0056b3;
+}
